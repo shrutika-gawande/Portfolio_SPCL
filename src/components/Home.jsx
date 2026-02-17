@@ -18,6 +18,11 @@ function Home() {
           <a href="/resume.pdf" className="secondary-btn">Download Resume</a>
         </div>
       </div>
+      
+      <div class="home-image">
+        <img src="\portfolio.svg" class="illustration" />
+      </div>
+      
     </section>
   );
 }

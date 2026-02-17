@@ -2,13 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html, body {
   width: 100%;
   height: 100%;
   font-family: 'Poppins', sans-serif;
-  background-color: #0f0a1f;
+  background: linear-gradient(to bottom right, #0b0716, #1e1b3a);
+  background-attachment: fixed;
 }
 
 #root {

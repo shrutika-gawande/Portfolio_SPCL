@@ -1,19 +1,19 @@
 .home {
   height: 90vh;
-  background: linear-gradient(to bottom right, #0f0a1f, #1e1b3a);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0 80px;
   color: #e9d5ff;
 }
 
 .home-content {
   max-width: 700px;
+  line-height: 1.5;
 }
 
 .home h1 {
-  font-size: 48px;
+  font-size: 3rem;
   margin-bottom: 15px;
 }
 
@@ -69,4 +69,52 @@
 .secondary-btn:hover {
   background: #7c3aed;
   color: white;
+}
+
+.home-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.illustration {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
+@media (max-width: 1500px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+    height: auto;
+    padding: 40px 20px;
+  }
+
+  .home h1 {
+    font-size: xx-large;
+  }
+
+  .home h2 {
+    font-size: medium;
+  }
+
+  .home p {
+    font-size: small;
+  }
+
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+    font-size: x-small;
+  }
+
+  .home-image {
+    margin-top: 40px;
+  }
+
+  .illustration {
+    max-width: 350px;
+  }
 }
