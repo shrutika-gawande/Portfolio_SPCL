@@ -5,7 +5,7 @@ function About() {
   const skillsData = [
     {
       category: "Frontend",
-      skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind"]
+      skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "Tailwind"]
     },
     {
       category: "Backend",
@@ -13,7 +13,7 @@ function About() {
     },
     {
       category: "Tools",
-      skills: ["Git", "GitHub", "VS Code", "Postman"]
+      skills: ["GitHub", "VS Code", "Postman"]
     },
     {
       category: "Frameworks & Libraries",
