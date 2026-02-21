@@ -1,16 +1,57 @@
-# React + Vite
+# 🌐 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview
 
-Currently, two official plugins are available:
+This is my Personal Portfolio Website developed as part of my internship task.  
+The portfolio showcases my projects, technical skills, and contact details in a professional and responsive design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The website is fully responsive and works across mobile, tablet, and desktop devices.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React.js
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- Responsive Design (Flexbox/Grid)
+- (Optional) EmailJS for Contact Form
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- Responsive Navigation Bar
+- Attractive Hero Section
+- About Me Section
+- Skills Section with Visual Representation
+- Projects Section with:
+  - Project Title
+  - Description
+  - Tech Stack
+  - GitHub Link
+  - Live Link
+- Contact Form with Validation
+- Smooth Scrolling
+- Interactive UI Elements
+
+---
+
+## 🎯 Learning Outcomes
+
+- Improved React component structuring
+- Implemented responsive UI design
+- Applied form validation techniques
+- Practiced clean code organization
+- Learned project deployment process
+
+---
+
+## ⭐ Acknowledgment
+
+This project was developed as part of an internship task to enhance frontend development skills and practical implementation.
+
+---
+
+### Thank You 🚀
