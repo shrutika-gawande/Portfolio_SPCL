@@ -1,4 +1,5 @@
 import "../styles/Project.css";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
 
@@ -8,24 +9,24 @@ function Projects() {
       description:
         "A full-stack AI-powered mock interview platform built using MERN stack with OpenAI integration.",
       tech: ["React", "Node.js", "MongoDB", "OpenAI API"],
-      github: "https://github.com/yourusername/ai-mock-interview",
-      live: "https://your-live-link.com"
+      github: "",
+      live: ""
     },
     {
       title: "Personal Finance Tracker",
       description:
         "Track income and expenses with real-time analytics and authentication system.",
       tech: ["React", "Express", "MongoDB", "JWT"],
-      github: "https://github.com/yourusername/finance-tracker",
-      live: "https://your-live-link.com"
+      github: "",
+      live: ""
     },
     {
-      title: "Airbnb Clone",
+      title: "ExploreInn",
       description:
         "Full-stack property booking platform with authentication and image upload.",
       tech: ["React", "Node.js", "MongoDB"],
-      github: "https://github.com/yourusername/airbnb-clone",
-      live: "https://your-live-link.com"
+      github: "",
+      live: ""
     }
   ];
 
@@ -46,8 +47,8 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href={project.github} target="_blank">GitHub</a>
-              <a href={project.live} target="_blank">Live</a>
+              <a href={project.github} target="_blank"> <FaGithub /> GitHub</a>
+              <a href={project.live} target="_blank"> <FaExternalLinkAlt /> Live</a>
             </div>
           </div>
         ))}

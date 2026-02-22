@@ -57,7 +57,7 @@
 .project-links a {
   margin-right: 15px;
   text-decoration: none;
-  color: #a78bfa;
+  color: rgba(255, 255, 255, 0.641);
   font-weight: 500;
   transition: 0.3s ease;
 }
