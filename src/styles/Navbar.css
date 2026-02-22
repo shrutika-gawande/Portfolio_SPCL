@@ -46,3 +46,40 @@
   transform: scale(1.05);
   box-shadow: 0 0 15px #7c3aed;
 }
+
+/* Mobile Menu Icon */
+.menu-icon {
+  display: none;
+  font-size: 24px;
+  color: #a78bfa;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: -100%;
+    flex-direction: column;
+    background: #140f2d;
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+    gap: 25px;
+    transition: 0.4s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .hire-btn {
+    display: none;
+  }
+}
