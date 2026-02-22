@@ -14,7 +14,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 35px;
-  align-items: stretch; /* makes equal height cards */
+  align-items: stretch; 
 }
 
 /* CARD */
@@ -27,7 +27,7 @@
 
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* fixes spacing */
+  justify-content: space-between; 
   align-items: center;
 
   transition: 0.3s ease;
@@ -51,11 +51,11 @@
   line-height: 1.6;
 }
 
-/* TECH STACK CENTER FIX */
+
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* important */
+  justify-content: center; 
   gap: 10px;
   margin-bottom: 25px;
 }
@@ -67,10 +67,9 @@
   font-size: 12px;
 }
 
-/* LINKS CENTER FIX */
 .project-links {
   display: flex;
-  justify-content: center; /* important */
+  justify-content: center; 
   align-items: center;
   gap: 20px;
   margin-top: auto;
