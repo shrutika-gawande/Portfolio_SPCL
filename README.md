@@ -16,7 +16,6 @@ The website is fully responsive and works across mobile, tablet, and desktop dev
 - CSS3
 - JavaScript (ES6+)
 - Responsive Design (Flexbox/Grid)
-- (Optional) EmailJS for Contact Form
 
 ---
 

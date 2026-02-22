@@ -91,7 +91,6 @@
   transform: scale(1.05);
 }
 
-/* RESPONSIVE FIX */
 @media (max-width: 768px) {
   .projects-section {
     padding: 70px 5%;
