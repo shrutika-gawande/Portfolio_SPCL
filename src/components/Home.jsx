@@ -15,7 +15,7 @@ function Home() {
 
         <div className="home-buttons">
           <a href="#projects" className="primary-btn">View Projects</a>
-          <a href="/resume.pdf" className="secondary-btn">Download Resume</a>
+          <a href="/Resume.pdf" className="secondary-btn">Download Resume</a>
         </div>
       </div>
       
