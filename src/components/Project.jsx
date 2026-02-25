@@ -5,29 +5,29 @@ function Projects() {
 
   const projects = [
     {
-      title: "AI Mock Interview Assistant",
-      description:
-        "A full-stack AI-powered mock interview platform built using MERN stack with OpenAI integration.",
-      tech: ["React", "Node.js", "MongoDB", "OpenAI API"],
-      github: "",
-      live: ""
-    },
-    {
-      title: "Personal Finance Tracker",
-      description:
-        "Track income and expenses with real-time analytics and authentication system.",
-      tech: ["React", "Express", "MongoDB", "JWT"],
-      github: "",
-      live: ""
-    },
-    {
       title: "ExploreInn",
       description:
-        "Full-stack property booking platform with authentication and image upload.",
+        "A responsive accommodation platform where users can host their houses or list properties, while travelers can explore stays with filters and review Listings.",
       tech: ["React", "Node.js", "MongoDB"],
-      github: "",
-      live: ""
-    }
+      github: "https://github.com/shrutika-gawande/ExploreInn",
+      live: "https://exploreinn-lgne.onrender.com/listings"
+    },
+    {
+      title: "Portfolio",
+      description:
+        "A full-stack AI-powered mock interview platform built using MERN stack with OpenAI integration.",
+      tech: ["React", "Javascript", "Tailwind", "Html"],
+      github: "https://github.com/shrutika-gawande/portfolio",
+      live: "https://portfolio-delta-gold-27.vercel.app/"
+    },
+    {
+      title: "BitLinks",
+      description:
+        "Track income and expenses with real-time analytics and authentication system.",
+      tech: ["Next,js", "Express", "MongoDB", "Bootstrap"],
+      github: "https://github.com/shrutika-gawande/bitlinks",
+      live: "https://bitkinks.vercel.app/"
+    },
   ];
 
   return (
