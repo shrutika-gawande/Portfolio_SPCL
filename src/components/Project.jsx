@@ -8,7 +8,7 @@ function Projects() {
       title: "ExploreInn",
       description:
         "A responsive accommodation platform where users can host their houses or list properties, while travelers can explore stays with filters and review Listings.",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React", "Express", "Node.js", "MongoDB"],
       github: "https://github.com/shrutika-gawande/ExploreInn",
       live: "https://exploreinn-lgne.onrender.com/listings"
     },
@@ -17,7 +17,7 @@ function Projects() {
       description:
         "A full-stack AI-powered mock interview platform built using MERN stack with OpenAI integration.",
       tech: ["React", "Javascript", "Tailwind", "Html"],
-      github: "https://github.com/shrutika-gawande/portfolio",
+      github: "https://github.com/shrutika-gawande/portfolio/tree/main/portfolio",
       live: "https://portfolio-delta-gold-27.vercel.app/"
     },
     {
